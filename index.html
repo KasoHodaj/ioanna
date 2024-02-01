@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ioanna Tranaka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav class="desktop-nav">
+            <div class="logo">
+                <a href="index.html" class="logo">Ioanna Tranaka</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="responsive-nav">
+            <div class="logo">
+                <a href="index.html" class="logo">Ioanna Tranaka</a>
+            </div>
+            <div class="responsive-menu">
+                <div class="responsive-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PROFILE -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./io.png" class="profile-picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hey, I'm</p>
+            <h1 class="title">Ioanna Tranaka</h1>
+            <p class="section__text__p2">Digital Marketing & <br>
+                Social Media Manager
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Ioanna_Tranaka_Resume.pdf')">Download
+                    CV</button>
+                <button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Me</button>
+            </div>
+
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/ioanna-tranaka-735242206/">
+                    <img src="./assets/linkedin.png" alt="LinkedIn" class="icon">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="socialmedia.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>1 year <br />Digital Marketer</p>
+                    </div>
+                    <br>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree<br></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hi, I'm <span style="color:rgb(103, 57, 179);">Ioanna Tranaka</span>—a Digital Marketing Specialist and Social Media Manager with a degree in
+                        Administrative Science and Technology from the University of Western Macedonia.
+                        Currently based in Thessaloniki, I bring a dedicated and results-oriented approach to every
+                        project.
+                        Let's connect and explore how we can elevate your digital presence together!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- PROJECTS -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent Projects</p>
+        <h1 class="title">Projects</h1>
+        
+        <div class="about-containers">
+            
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/juicebox.png"  class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                        Navigate
+                    </button>
+                </div>
+            </div>
+            
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/feelings.png" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://www.linkedin.com/feed/update/urn:li:activity:7150563976848781314/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7150563976848781314%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29'">
+                    Navigate
+                </button>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+</section>
+
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">ioannatranaka4@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/ioanna-tranaka-735242206/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <footer>
+        <div class="footer-container">
+
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+        </div>
+        
+        <p id="copyright">Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      </footer>
+
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector(".menu-links");
+            const icon = document.querySelector(".responsive-icon");
+            menu.classList.toggle("open");
+            icon.classList.toggle("open");
+        }
+
+    </script>
+
+</body>
+
+</html>
