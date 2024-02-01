@@ -33,6 +33,7 @@
                     <span></span>
                     <span></span>
                     <div class="menu-links">
+                        <br>
                         <li><a href="#about" onclick="toggleMenu()">About</a></li>
                         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -56,7 +57,7 @@
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Ioanna_Tranaka_Resume.pdf')">Download
                     CV</button>
-                <button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Me</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Me</button>
             </div>
 
             <div id="socials-container">
@@ -112,13 +113,13 @@
         
         <div class="about-containers">
             
-            <div class="details-container color-container">
+            <div class="details-container ">
                 <div class="article-container">
                     <img src="./assets/juicebox.png"  class="project-img" />
                 </div>
                 <h2 class="experience-sub-title project-title">Project One</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href=''">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.linkedin.com/feed/update/urn:li:activity:7150564739864059905/'">
                         Navigate
                     </button>
                 </div>
@@ -184,19 +185,20 @@
             </div>
         </div>
         
-        <p id="copyright">Copyright &#169; 2023 Kaso Hodaj. All Rights Reserved.</p>
+        <p id="copyright">Copyright &#169; 2024 by Kaso Hodaj. All Rights Reserved.</p>
       </footer>
 
 
-    <script>
+      <script>
         function toggleMenu() {
-            const menu = document.querySelector(".menu-links");
-            const icon = document.querySelector(".responsive-icon");
+            const menu = document.getElementsByClassName("menu-links")[0];
+            const icon = document.getElementsByClassName("responsive-icon")[0];
             menu.classList.toggle("open");
             icon.classList.toggle("open");
         }
-
     </script>
+    
+    
 
 </body>
 
